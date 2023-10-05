@@ -5,6 +5,7 @@ import { addTask } from "../store/TodoReducer";
 
 let AddNewTaskForm = props => {
     const { handleSubmit } = props;
+
     return <form onSubmit={ handleSubmit }>
                 <Field  name="firstName" 
                         component="input"
